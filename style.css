@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 .container {
     height: 100vh;
     display: flex;
@@ -13,6 +16,10 @@
 }
 .atas .tampil {
     width: 100%;
+    max-width: 300px;
+    min-width: 100px;
+    min-height: 50px;
+    max-height: 200px;
     font-family: sans-serif;
     text-align: right;
     padding: 3px 6px;
