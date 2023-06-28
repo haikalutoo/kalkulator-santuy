@@ -19,7 +19,6 @@
     margin-bottom: 8px;
 }
 .atas .tampil {
-    width: auto;
     height: 50px;
     margin: auto;
     font-family: sans-serif;
@@ -40,6 +39,7 @@
     border-radius: 5px;
     border: none;
     transition: .1s;
+    margin: auto;
 }
 .bawah button:hover {
     background-color: #464d56;
