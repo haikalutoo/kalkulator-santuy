@@ -1,3 +1,6 @@
+:root {
+    color: #eaeaea;
+}
 * {
     margin: 0;
 }
@@ -7,8 +10,9 @@
 }
 .kalkulator {
     margin: auto;
-    padding: 10px;
-    border: 1px solid #333;
+    padding: 12px;
+    background-color: #0d1117;
+    border-radius: 3px;
 }
 .atas {
     display: flex;
@@ -22,11 +26,25 @@
     max-height: 200px;
     font-family: sans-serif;
     text-align: right;
-    padding: 3px 6px;
+    padding: 3px 10px;
+    border: 1px solid #464d56;
+    outline: none;
+    background-color: #0d1117;
+    color: #eaeaea;
+    font-size: 1.2rem;
+    border-radius: 3px;
 }
 .bawah button {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    color: #eaeaea;
+    background-color: #353a41;
+    border-radius: 5px;
+    border: none;
+    transition: .1s;
+}
+.bawah button:hover {
+    background-color: #464d56;
 }
 .bawah td {
     padding: 2px;
